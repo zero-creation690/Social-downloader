@@ -9,7 +9,7 @@ import asyncio
 # Your bot token. It's best to use environment variables for this.
 # For simplicity, I've hardcoded it as you requested, but for a real-world app,
 # you should set it in Vercel's environment variables.
-TOKEN = '-8285386422:AAFDppdScIBbgGMsopzKx7H1zut1JnnuP50'
+TOKEN = '8285386422:AAFDppdScIBbgGMsopzKx7H1zut1JnnuP50'
 
 # A dictionary to keep track of user-selected URLs and formats
 user_data = {}
