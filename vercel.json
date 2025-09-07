@@ -1,8 +1,14 @@
-​{
-"rewrites": [
 {
-"source": "/(.*)",
-"destination": "/api/webhook.py"
-}
-]
+  "version": 2,
+  "functions": {
+    "api/bot.py": {
+      "runtime": "python3.10"
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/bot",
+      "dest": "/api/bot.py"
+    }
+  ]
 }
